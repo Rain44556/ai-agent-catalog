@@ -2,7 +2,8 @@
   id: string;
   name: string;
   description: string;
-  status: string;
+  status: "Active" | "Beta" | "Archived";
   category: string;
+  image: string;
   pricingModel: string;
 };
