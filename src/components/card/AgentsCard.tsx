@@ -33,7 +33,7 @@ const AgentsCard = ({ agent }: Props) => {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 10, y: 10 }}
         transition={{ duration: 0.5, ease: "easeInOut" }}>
-        <Card className="w-full hover:bg-gradient-to-r from-green-800">
+        <Card className="w-full hover:bg-gradient-to-r from-green-800 border-green-700">
           <CardHeader>
             <Avatar>
               <AvatarImage className="object-cover" src={agent.image} />
